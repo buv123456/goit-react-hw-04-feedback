@@ -1,0 +1,43 @@
+.bgGood {
+    min-height: 250px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    background-color: rgba(172, 255, 47, 0.5);
+    border-radius: 15px;
+    transition: all 3s ease;
+}
+
+.bgBad {
+    composes: bgGood;
+    background-color: rgba(247, 144, 144, 0.5);
+}
+
+.feedWrap,
+.statWrap {
+    width: 240px;
+
+}
+
+.feed,
+.positive,
+.total {
+    display: flex;
+}
+
+.span {
+    margin-left: auto;
+}
+
+.total {
+    margin-bottom: 10px;
+}
+
+.positive {
+    scale: 1.1;
+}
